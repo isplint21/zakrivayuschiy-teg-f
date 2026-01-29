@@ -1,0 +1,24 @@
+/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --font-Inter: "Inter-Variable", sans-serif;
+  --font-PressStart2P: "PressStart2P", monospace;
+  --main-font-weight: 410;
+  --bold-font-weight: 715;
+  --heading-font-weight: 400;
+  --gradient-from-left-to-right: repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px);
+  --gradient-from-top-to-bottom: repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px);
+  --gradient: linear-gradient(#e7e7e7 0.01%, #1a1a1a);
+  --block-width: clamp(375px, 50vw, 700px);
+  --block-height: clamp(327px, 80vh, 368px);
+  --block-heading-width: clamp(343px, 50vw, 455px);
+  --block-heading-height: clamp(83px, 80vh, 108px);
+  --font-size-html: clamp(49px, 13vw, 65px);
+  --font-size-teg: clamp(14px, 3.73vw, 23px);
+  --card-width: clamp(371px, 50vw, 700px);
+  --card-height: clamp(758px, 80vh, 956px);
+  --stroke-color: #fff;
+  --fill: #000;
+  --animation-fill-color: transparent;
+  --contour-color: #f00;
+  --core-color: transparent;
+}
